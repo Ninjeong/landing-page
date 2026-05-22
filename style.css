@@ -54,7 +54,7 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
-    max-width: 450px;
+    max-width: 600px;
 }
 
 .hero-main-text {
@@ -145,7 +145,7 @@ button {
 .quote-author {
     font-size: 24px;
     font-weight: 700;
-    align-self: flex-end;
+    text-align: right;
     max-width: 700px;
     width: 700px;
 }
@@ -161,6 +161,7 @@ button {
     align-items: center;
     justify-content: space-between;
     gap: 60px;
+    border-radius: 12px;
 }
 
 .cta-header {
@@ -168,6 +169,22 @@ button {
     font-size: 24px;
 }
 
+.cta-subtext {
+    color: #e5e7eb;
+}
+
 .cta button {
-    border: 2px solid;
+    border: 2px solid #f9faf8;
+    background-color: transparent;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
 }
